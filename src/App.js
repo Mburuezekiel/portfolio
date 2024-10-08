@@ -20,7 +20,7 @@ function App() {
         <Skills /> 
         <Routes>
           <Route path="/certificate/:id" element={<CertificateViewer />} />
-          <Route path="/" element={<Projects />} />
+          // <Route path="/" element={<Projects />} />
           {/* <Route path="/Contact" element={<Contact />} /> */}
         </Routes>
          <Projects/>
