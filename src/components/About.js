@@ -14,7 +14,7 @@ function About() {
 
         <div className="about-text">
           <h3 className="username">Ezekiel Njuguna</h3>
-          <p className="occupation">Full-Stack Software Developer</p>
+          <p className="occupation">Full-Stack Developer</p>
           {/* <p className="email">Email: <a href="mailto:ezekiel@example.com">ezekiel@example.com</a></p>
            */}
           <div className="links">
