@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-// import './Contact.css';
+import { init, send } from '@emailjs/browser'; // Import from the new package
+
+// Initialize EmailJS with your User ID
+init('Ld4KztV37Xk0hxfUu');
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -8,28 +11,23 @@ function Contact() {
     message: ''
   });
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    
-    try {
-      const response = await fetch('http://localhost:5000/send', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
 
-      if (response.ok) {
-        alert('Message sent successfully!');
-        setFormData({ name: '', email: '', message: '' }); // Reset form
-      } else {
-        alert('Failed to send message.');
-      }
-    } catch (error) {
-      console.error('Error:', error);
-      alert('There was an error sending the message.');
-    }
+    // Use EmailJS to send the email
+    send('service_zg9utex', 'template_cmrgdhl', {
+      from_name: formData.name,
+      from_email: formData.email,
+      message: formData.message,
+    })
+    .then((response) => {
+      alert('Message sent successfully!');
+      setFormData({ name: '', email: '', message: '' }); // Reset form
+    })
+    .catch((err) => {
+      console.error('Failed to send message:', err);
+      alert('Failed to send message.');
+    });
   };
 
   return (
