@@ -41,10 +41,7 @@ function CertificateViewer() {
 
   return (
     <div className="certificate-viewer">
-     <div className="btn">
-  <button onClick={handleBack}>Back</button>
-  <button onClick={handleNext} disabled={index >= certificates.length - 1}>Next</button>
-</div>
+     
 
       <button className="close-button" onClick={handleClose}>✖</button>
       {certificate ? (
@@ -55,7 +52,10 @@ function CertificateViewer() {
             alt={`${certificate.name} Certificate`}
             style={{ maxWidth: '100%', height: 'auto' }}
           />
-          
+          <div className="btn">
+  <button onClick={handleBack}>Back</button>
+  <button onClick={handleNext} disabled={index >= certificates.length - 1}>Next</button>
+</div>
 
         </>
       ) : (
