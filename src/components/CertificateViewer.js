@@ -41,10 +41,11 @@ function CertificateViewer() {
 
   return (
     <div className="certificate-viewer">
-      <div className="btn">
+     <div className="btn">
   <button onClick={handleBack}>Back to Skills</button>
   <button onClick={handleNext} disabled={index >= certificates.length - 1}>Next</button>
 </div>
+
       <button className="close-button" onClick={handleClose}>✖</button>
       {certificate ? (
         <>
