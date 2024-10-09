@@ -18,8 +18,8 @@ function About() {
           {/* <p className="email">Email: <a href="mailto:ezekiel@example.com">ezekiel@example.com</a></p>
            */}
           <div className="links">
-            <a href="https://github.com/Mburuezekiel" target="_blank" rel="noopener noreferrer" className="github">GitHub</a>
-            <a href="https://www.linkedin.com/in/ezekiel-mburu-5aaa00262/" target="_blank" rel="noopener noreferrer" className="linkedin">LinkedIn</a>
+            <a href="https://github.com/Mburuezekiel" target="_blank" rel="noopener noreferrer" className="github"> <i className="bi bi-github"></i>GitHub</a>
+            <a href="https://www.linkedin.com/in/ezekiel-mburu-5aaa00262/" target="_blank" rel="noopener noreferrer" className="linkedin">   <i className="bi bi-linkedin"></i>LinkedIn</a>
           </div>
           
           <p>
