@@ -775,23 +775,53 @@ hr {
   background: #444; /* Darker background on hover */
 }
 
-/* Footer Styles */
 .footer {
-  text-align: center;
-  padding: 1rem;
-  background: #333;
+  background-color: #1b3b5f;
   color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  position: relative;
 }
 
 .social-links {
-  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 1rem;
 }
 
 .social-links a {
   color: white;
-  margin: 0 0.5rem;
   text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s;
 }
+
+.social-links a:hover {
+  color: #ff6347; /* Highlight on hover */
+}
+
+.qr-section {
+  margin-top: 1rem;
+}
+
+.qr-code {
+  width: 100px; /* Adjust the size as needed */
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.copy-message {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #ffd700; /* Gold color for the copy message */
+}
+
+.copy-message.copied {
+  color: #32cd32; /* Change color when copied */
+}
+
 
 /* Animations */
 @keyframes fadeIn {
