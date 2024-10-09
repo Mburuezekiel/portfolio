@@ -8,6 +8,9 @@ function Hero() {
       <p className="animated">
         <b>A passionate web developer creating modern websites.</b>
       </p>
+       <div className="motto">
+    <p>Innovate ● Create ● Inspire</p>
+  </div>
       <a href="#projects" className="cta-btn">View My Work</a>
     </section>
   );
