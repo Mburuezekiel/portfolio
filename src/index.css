@@ -180,6 +180,26 @@ body {
   position: relative; /* Ensure the text and button stay above the image */
   z-index: 1; /* Ensure text stays above the image */
 }
+/* Style for Motto Division */
+.motto {
+  text-align: center;
+  margin-top: 20px; /* Space between hr and motto */
+  font-size: 1.5rem; /* Size for the motto text */
+  color: #1b3b5f; /* Text color, matching your theme */
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+/* Optional: Add some animation or effects */
+.motto p {
+  animation: fadeIn 1.5s ease-in-out; /* Simple fade-in animation */
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 /* Typing effect for heading */
 .animated-heading {
