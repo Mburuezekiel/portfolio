@@ -11,7 +11,7 @@ function Hero() {
        <div className="motto">
     <p>Innovate ● Create ● Inspire</p>
   </div>
-      <a href="#projects" className="cta-btn">View My Work</a>
+      // <a href="#projects" className="cta-btn">View My Work</a>
     </section>
   );
 }
