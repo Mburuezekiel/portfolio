@@ -14,7 +14,7 @@ function About() {
 
         <div className="about-text">
           <h3 className="username">Ezekiel Njuguna</h3>
-  <h4 className="username" style={{ fontSize: '12px' }}>Bsc Business Information Technology, BBIT</h4>
+  <h4 className="usernam" style={{ fontSize: '12px' }}>Bsc Business Information Technology, BBIT</h4>
 
           <p className="occupation">Full-Stack Developer</p>
           {/* <p className="email">Email: <a href="mailto:ezekiel@example.com">ezekiel@example.com</a></p>
