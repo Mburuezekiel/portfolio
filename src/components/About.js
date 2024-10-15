@@ -22,7 +22,11 @@ function About() {
           <div className="links">
             <a href="https://github.com/Mburuezekiel" target="_blank" rel="noopener noreferrer" className="github"> <i className="bi bi-github"></i> GitHub</a>
             <a href="https://www.linkedin.com/in/ezekiel-mburu-5aaa00262/" target="_blank" rel="noopener noreferrer" className="linkedin">   <i className="bi bi-linkedin"></i> LinkedIn</a>
-          </div>
+           <a href="https://www.fiverr.com/s/6YKPG3r" target="_blank" rel="noopener noreferrer" className="fiverr">  <i className="bi bi-fiverr"></i> Fiverr </a>
+
+
+
+            </div>
           
           <p>
             As a full-stack software developer with a diverse skill set, I have a strong foundation in front-end technologies such as HTML, CSS, and Vue. I am also proficient in backend technologies like Python, Node.js, Flask, and Django, and have experience working with databases like MongoDB. I am highly motivated and adaptable, with a passion for creating intuitive and user-friendly web applications. I am always looking for new challenges and opportunities to grow and improve as a developer.
