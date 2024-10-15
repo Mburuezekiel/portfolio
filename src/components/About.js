@@ -21,7 +21,7 @@ function About() {
            */}
           <div className="links">
             <a href="https://github.com/Mburuezekiel" target="_blank" rel="noopener noreferrer" className="github"> <i className="bi bi-github"></i> GitHub</a>
-             <a href="https://www.fiverr.com/s/6YKPG3r" target="_blank" rel="noopener noreferrer" className="fiverr">  <i className="bi bi-fiverr"></i> Fiverr </a>
+             <a href="https://www.fiverr.com/s/6YKPG3r" target="_blank" rel="noopener noreferrer" className="fiverr"> <i class="bi bi-diagram-2-fill"></i> Fiverr </a>
             <a href="https://www.linkedin.com/in/ezekiel-mburu-5aaa00262/" target="_blank" rel="noopener noreferrer" className="linkedin">   <i className="bi bi-linkedin"></i> LinkedIn</a>
           
 
