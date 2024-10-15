@@ -1,5 +1,5 @@
 import React from 'react';
-import ME from "../assets/my passport.jpg"; // Ensure the path to your image is correct.
+import ME from "../assets/mypic.jpg"; // Ensure the path to your image is correct.
 
 function About() {
   return (
