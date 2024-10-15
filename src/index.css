@@ -420,6 +420,39 @@ hr {
   width: 50%;
   margin: 10px auto;
 }
+.fiverr {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1dbf73; /* Fiverr green */
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fiverr i {
+  margin-right: 8px;
+}
+
+.fiverr:hover {
+  background-color: #17a663; /* Slightly darker green */
+  transform: translateY(-3px); /* Subtle lift effect */
+}
+
+.fiverr:active {
+  background-color: #139a5a;
+  transform: translateY(0); /* Reset lift effect */
+}
+
+.fiverr:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(29, 191, 115, 0.8); /* Green glow */
+}
+
 
 .about-content {
   display: flex;
