@@ -12,6 +12,11 @@ function Projects() {
       title: "E-Commerce Store",
       description: "An online store with full shopping cart functionality.",
       link: "/projects/ecommerce" // Update this to the actual project page URL
+    },
+    {
+      title: "Array Sum Calculator",
+      description: "A modern interface for calculating sum of loop arrays.",
+      link: "./components/index.html" // Provide the correct path to your HTML file
     }
   ];
 
