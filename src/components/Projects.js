@@ -14,6 +14,11 @@ function Projects() {
       link: "/projects/ecommerce" // Update this to the actual project page URL
     },
     {
+      title: "Task Management App",
+      description: "A collaborative task management application with real-time updates and team features.",
+      link: "https://mytrackmate-app.vercel.app/" // Provide the correct path to your HTML file
+    },
+    {
       title: "Array Sum Calculator",
       description: "A modern interface for calculating sum of loop arrays.",
       link: "./components/index.html" // Provide the correct path to your HTML file
